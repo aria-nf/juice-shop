@@ -1,0 +1,47 @@
+Testing  (package-lock.json) ...
+
+Tested 487 dependencies for known issues, found 2 issues, 2 vulnerable paths.
+
+Open Security issues: 2
+
+ ✗ [MEDIUM] Improper Validation of Specified Index, Position, or Offset in Input
+   Finding ID: SNYK-JS-UUID-16133035
+   Info: https://snyk.io/vuln/SNYK-JS-UUID-16133035
+   Introduced by: uuid
+   Introduced through: juice-shop@20.4.0-SNAPSHOT > sequelize@6.37.8 > uuid@8.3.2
+
+ ✗ [HIGH] Regular Expression Denial of Service (ReDoS)
+   Finding ID: SNYK-JS-BASICFTP-20419408
+   Info: https://snyk.io/vuln/SNYK-JS-BASICFTP-20419408
+   Introduced by: basic-ftp
+   Introduced through: juice-shop@20.4.0-SNAPSHOT > proxy-agent@8.0.2 > pac-proxy-agent@9.1.0 > get-uri@8.0.1 > basic-ftp@5.3.1
+
+
+Issues with no direct upgrade or patch:
+  ✗ Improper Validation of Specified Index, Position, or Offset in Input [MEDIUM] [https://security.snyk.io/vuln/SNYK-JS-UUID-16133035] in uuid@8.3.2
+    introduced by juice-shop@20.4.0-SNAPSHOT > sequelize@6.37.8 > uuid@8.3.2
+  This issue was fixed in: 11.1.1, 14.0.0
+  ✗ Regular Expression Denial of Service (ReDoS) [HIGH] [https://security.snyk.io/vuln/SNYK-JS-BASICFTP-20419408] in basic-ftp@5.3.1
+    introduced by juice-shop@20.4.0-SNAPSHOT > proxy-agent@8.0.2 > pac-proxy-agent@9.1.0 > get-uri@8.0.1 > basic-ftp@5.3.1
+  This issue was fixed in: 6.2.1
+
+╭─────────────────────────────────────────────────────────╮
+│ Test Summary                                            │
+│                                                         │
+│   Organization:                                         │
+│   Test type:         Software Composition Analysis      │
+│   Project name:      juice-shop                         │
+│   Project path:      /tmp/juice-shop                    │
+│   Target file:       package-lock.json                  │
+│                                                         │
+│   Total security issues: 5                              │
+│   Ignored: 3 [ 1 CRITICAL  0 HIGH  1 MEDIUM  1 LOW ]    │
+│   Open   : 2 [ 0 CRITICAL  1 HIGH  1 MEDIUM  0 LOW ]    │
+╰─────────────────────────────────────────────────────────╯
+
+
+💡 Tip
+
+   To view ignored issues, use the --include-ignores option.
+                                                            
+

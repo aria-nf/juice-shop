@@ -1,0 +1,14 @@
+version: v1.25.0
+ignore:
+  SNYK-JS-MARSDB-480405:
+    - '*':
+        reason: 'Tidak ada versi perbaikan. Library dipakai pada komponen Juice Shop yang memang sengaja rentan (aplikasi latihan), dan akan dievaluasi untuk diganti.'
+        expires: 2027-06-30T00:00:00.000Z
+  SNYK-JS-NOTEVIL-2385946:
+    - '*':
+        reason: 'Tidak ada versi perbaikan. Dipakai pada fitur challenge Juice Shop; risiko diterima sementara.'
+        expires: 2027-06-30T00:00:00.000Z
+  SNYK-JS-HBS-1566555:
+    - '*':
+        reason: 'Severity LOW dan tidak ada versi perbaikan. Dicatat di backlog.'
+        expires: 2027-06-30T00:00:00.000Z
