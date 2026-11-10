@@ -12,3 +12,7 @@ ignore:
     - '*':
         reason: 'Severity LOW dan tidak ada versi perbaikan. Dicatat di backlog.'
         expires: 2027-06-30T00:00:00.000Z
+  SNYK-JS-BASICFTP-20419408:
+    - '*':
+        reason: 'Fix tersedia (6.2.1) tetapi dependensi transitif via proxy-agent; override menimbulkan konflik kompatibilitas. Dijadwalkan ditinjau ulang.'
+        expires: 2027-06-30T00:00:00.000Z
