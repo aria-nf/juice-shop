@@ -645,7 +645,7 @@ Issues with no direct upgrade or patch:
 │   Organization:                                            │
 │   Test type:         Software Composition Analysis         │
 │   Project name:      juice-shop                            │
-│   Project path:      E:\6_sch\github_aria_nf\juice-shop    │
+│   Project path:      /tmp/juice-shop                       │
 │   Target file:       package.json                          │
 │                                                            │
 │   Total security issues: 70                                │
@@ -657,3 +657,5 @@ Issues with no direct upgrade or patch:
 💡 Tip
 
    To view ignored issues, use the --include-ignores option.
+                                                            
+
